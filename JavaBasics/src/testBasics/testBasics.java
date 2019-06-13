@@ -15,7 +15,7 @@ public void readFile(String fileNnP) throws IOException{
 		BufferedReader br = new BufferedReader(fr);
 		
 		while((line=br.readLine())!=null){
-			//read file content
+			
 			System.out.println(line);
 		}
 		br.close();
